@@ -1,100 +1,107 @@
-# Alune People — Gestão de pessoas
+# Alune Pay — Aplicativo financeiro
 
-Estudo de interface desktop para um dashboard de gestão de pessoas, desenvolvido no Figma com apoio de inteligência artificial.
+Estudo de interface mobile para um aplicativo financeiro, desenvolvido no Figma com apoio de inteligência artificial.
 
-O Alune People reúne ausências planejadas, eventos e integração de colaboradores em uma visão centralizada, com conteúdo em português.
+O Alune Pay apresenta consulta de saldo, movimentações, envio simulado de dinheiro e análise de gastos, com conteúdo em português e valores em reais.
 
 ## 🎨 Visualize o design
 
-**[Abrir o projeto no Figma →](https://www.figma.com/design/OdXDjekr1xWeL0emfqAw4U/Alune-People?node-id=3-20)**
+**[Abrir o projeto no Figma →](https://www.figma.com/design/n9IrROPUKvJgbtq2K2YpMU/Alune-Pay?node-id=0-1)**
 
 ## Sobre o projeto
 
-A proposta é organizar informações do cotidiano de equipes de RH e lideranças, permitindo consultar períodos de ausência, compromissos e a integração de novos colaboradores.
+A proposta é reunir operações financeiras do dia a dia em uma experiência mobile com navegação direta e informações organizadas.
 
-O estudo explora uma interface com alta densidade de informações, distribuída em uma linha do tempo e painéis complementares.
+O estudo explora tanto a visão geral da conta quanto os estados visuais de um envio de dinheiro: seleção do destinatário, definição do valor e confirmação simulada.
 
-## O que compõe a interface
+## Telas e estados do projeto
 
-### Navegação
+### Início
 
-- Acessos a Dashboard, Colaboradores e Relatórios.
-- Busca e notificações.
-- Identificação do usuário e membros da equipe.
-- Ação visual para adicionar colaborador.
-- Barra lateral com atalhos.
+Visão geral da conta com:
 
-### Ausências planejadas
+- Identificação do usuário.
+- Saldo disponível.
+- Acesso ao envio de dinheiro.
+- Contatos para enviar novamente.
+- Transações recentes.
 
-Área principal organizada por colaboradores e dias do mês:
+### Selecionar contato
 
-- Identificação de colaboradores e cargos.
-- Calendário com diferenciação dos finais de semana.
-- Períodos de férias, licença remunerada e afastamento.
-- Indicações de aprovação e pendência.
-- Controles visuais de período e filtros.
+Tela dedicada à escolha do destinatário, com identificação dos contatos e informações parciais da conta.
 
-### Próximos eventos
+### Enviar dinheiro
 
-Painel com compromissos da equipe:
+Composição para preparação do envio:
 
-- Nome e descrição do evento.
-- Data e horário.
-- Identificação de participantes.
-- Destaque visual para um dos eventos.
+- Destinatário selecionado.
+- Valor em destaque.
+- Saldo disponível para consulta.
+- Teclado numérico.
+- Controle visual “Arraste para enviar”.
 
-### Integração de colaboradores
+### Estados de envio
 
-Área dedicada à apresentação de novos integrantes e ao acompanhamento visual das etapas de integração.
+O arquivo inclui estados intermediário e concluído do controle de envio, além de variações para outro destinatário.
 
-### Assistente
+Esses estados documentam a proposta visual da interação.
 
-Conceito de assistente com saudação e atalhos para:
+### Transferência simulada
 
-- Criar perfil.
-- Consultar relatórios.
-- Gerir equipe.
+Tela de confirmação com:
 
-O painel também apresenta um campo de mensagem e ações visuais para anexar arquivos e criar conteúdo.
+- Valor da operação.
+- Identificação do destinatário.
+- Mensagem explícita de que nenhum dinheiro foi enviado.
+
+### Análises
+
+Painel financeiro com:
+
+- Gráfico de fluxo de caixa.
+- Diferenciação entre entradas e saídas.
+- Distribuição dos gastos por categoria.
+- Total de despesas.
+- Valores e percentuais para compras, alimentação, transporte e outros.
 
 ## Direção visual
 
-A interface utiliza superfícies claras, cantos arredondados e sombras suaves para separar áreas de conteúdo.
+A interface combina fundos em degradê azul com cartões claros, elementos arredondados e controles de aparência suave.
 
-- **Hierarquia:** a linha do tempo de ausências ocupa a área principal.
-- **Cores:** verde, roxo e azul diferenciam tipos de ausência; amarelo destaca eventos.
-- **Organização:** eventos, integração e assistente aparecem em painéis complementares.
-- **Consistência:** botões, cartões e elementos de identificação seguem uma linguagem visual comum.
-- **Tipografia:** Manrope.
-- **Formato:** dashboard desktop de 1440 × 1000 pixels.
+- **Hierarquia:** saldo e valor do envio recebem destaque.
+- **Contraste:** cartões claros agrupam contatos, transações e gráficos.
+- **Consistência:** navegação, botões e elementos recorrentes mantêm a mesma linguagem entre telas.
+- **Visualização de dados:** gráficos apresentam fluxo de caixa e composição das despesas.
+- **Localização:** textos em português e valores em reais.
 
-O arquivo também inclui uma área de componentes de apoio.
+O arquivo contém **nove frames de telas e estados**, em **390 × 844 pixels**, além de uma página de componentes.
 
 ## Processo de criação
 
-O projeto foi desenvolvido como estudo de adaptação de uma referência visual, com apoio de IA na construção da interface.
+O projeto partiu de uma referência visual de aplicativo financeiro, adaptada como estudo para portfólio.
 
 O processo envolveu:
 
-1. Seleção da referência.
-2. Definição do contexto de gestão de pessoas.
-3. Orientação da criação por prompts sobre composição, hierarquia e elementos visuais.
-4. Adaptação dos textos para português.
-5. Avaliação visual e organização do resultado no Figma.
+1. Seleção da referência visual.
+2. Orientação da criação por prompts sobre composição, hierarquia e componentes.
+3. Construção das interfaces no Figma com apoio de IA.
+4. Adaptação dos textos para português e dos valores para reais.
+5. Organização das telas e dos estados de envio simulado.
+6. Avaliação visual do resultado.
 
 A referência foi utilizada como base de estudo. A composição de inspiração não é apresentada como criação original deste projeto.
 
 ## Ferramentas
 
-- **Figma:** construção e organização da interface.
+- **Figma:** construção e organização das telas e componentes.
 - **Inteligência artificial:** apoio à criação orientada por prompts.
 - **GitHub:** documentação e apresentação do estudo.
 
 ## Escopo
 
-Este projeto é um estudo de interface para portfólio, com informações demonstrativas.
+Este é um estudo de interface para portfólio, com dados fictícios e operações simuladas.
 
-Os controles representam propostas visuais de ações. O estudo não inclui sistema de RH em funcionamento, processamento de solicitações, backend ou assistente de IA integrado.
+Não inclui integração bancária, movimentação real de dinheiro, autenticação ou backend. As telas de confirmação identificam explicitamente o caráter demonstrativo do envio.
 
 ## Autor
 
